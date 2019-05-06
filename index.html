@@ -2,85 +2,327 @@
 <?php include 'pages/header.html' ; ?>
 
 
+<style>
+	.flipster--carousel {
+  /*    .flipster__item--past .flipster__item__content { 
+      transform: translateX(100%) rotateY(-20deg) scale(0.5);
+    }*/
+	width: 100%;
+	margin-top: 50px;
+			margin-bottom: 20px;
+	height: 500px;
+	perspective: 1000px;
+			opacity: 1;
+		overflow: hidden;
+}
+.flipster--carousel .flipster__item--future-2 {
+  -webkit-transform: translateX(-241%);
+          transform: translateX(-241%);
+
+}
+.flipster--carousel .flipster__item--future-2 .flipster__item__content {
+  -webkit-transform: rotateY(45deg) scale(0.8);
+          transform: rotateY(45deg) scale(0.8);
+
+}
+.flipster--carousel .flipster__item--past-2 {
+  -webkit-transform: translateX(241%);
+          transform: translateX(241%);
+
+}
+.flipster--carousel .flipster__item--past-2 .flipster__item__content {
+  -webkit-transform: rotateY(-45deg) scale(0.8);
+          transform: rotateY(-45deg) scale(0.8); 
+	
+}
+	#frames{
+			background-image: url('images/back.png'); 
+	background-size: cover;
+	background-attachment: ;     
+	background-repeat: no-repeat;
+	}
+
+#frames .frame-card{
+	background: ;
+	width: 700px;
+	height: 450px;
+	margin: -150px; 
+	margin-top: -1px;
+	color: ;
+	border: 2px solid brown;
+	border-radius: 0px;
+	opacity: 1;
+}
+#frames  .frame-card h1{
+	
+}
+</style>
+
+ <div class="" id="frames">
+    	
+   <div class="flipster">
+        <ul class="flip-items">
+            <li data-flip-title="Red">
+                <div class="frame-card" id="frame1">
+                	<div class="content-1">
+                		<h1 class="text-center">CRO</h1>
+                	</div>
+                	<div class="content-2 p-4" >
+                		<p class="lead">
+                			      ㈜리서치멘토는 임상시험수탁기관로서 서비스를 제공하고 있습니다. 2016년도부터 우리는 건강기능식품과 의약품, 의료기기의 개발을 원하는 고객의 신뢰할 수 있는 협력자로 고객들과 함께 발 맞춰 왔습니다. ​
+KISA의 후원 하에 2018년에 임상시험연구 대상자의 시험 순응도를 향상시키기 위한 climinder 솔루션을 개발하였고 현재, 특허 출원 하였습니다.
+                		</p>
+                		<hr>
+                			<h4>Service Scope</h4>
+         	<div class="row">
+         
+         		<div class="col-md-6">
+         			       		<table class="table" style="border: 0px solid;">
+	<thead>
+		<tr></tr>
+	</thead>
+    <tbody >
+      <tr style="borde-topr: 0px solid;">
+
+	  <td><button class="btn btn-danger"  data-toggle="modal" data-target="#Designing">     Designing</button></td>
+
+      </tr>
+      <tr>
+        <td><button class="btn btn-danger"  data-toggle="modal" data-target="#Data">Data Management</button></td>
+   </tr>
+          <tr>
+  <td><button class="btn btn-danger"  data-toggle="modal" data-target="#Statistical">Statistical Services</button></td>
+   
+      
+      </tr>
+
+    </tbody>
+  </table>
+         		</div>
+         		<div class="col-md-6">
+         			       		<table class="table" style="border: 0px solid;">
+	<thead>
+		<tr></tr>
+	</thead>
+    <tbody >
+
+     <tr>
+  <td><button class="btn btn-danger"  data-toggle="modal" data-target="#Medical">Medical Writing</button></td>
+   
+      
+      </tr>
+           <tr>
+  <td><button class="btn btn-danger"  data-toggle="modal" data-target="#ETC">ETC</button></td>
+   
+      
+      </tr>
 
 
- <div class="jumbotron" id="section-main">
-    	<section class="swiper-container loading">
-  <div class="swiper-wrapper">
-    <div class="swiper-slide">
-    
-      <div class="content1">
-        <div class="row">
-        	<div class="col">
-        		<h1 class="title" data-swiper-parallax="-30%" data-swiper-parallax-scale=".7">CRO</h1>
-        <p class="caption" data-swiper-parallax="-20%">Pharmaceuticals, medical devices, and health functional foods. Research mentor as clinical CRO (Contract Research Organization)</p>
-        	</div>
-        	
-        	 	
-        	
-        	
-        </div>
+
+
+    </tbody>
+  </table>
+        		<!-- Button trigger modal -->
+
+
+<!-- Modal -->
+
+        		
+         		</div>
+         	</div>
+                	</div>
+                </div>
+            </li>
+            <li data-flip-title="Razzmatazz" data-flip-category="Purples">
+                   <div class="frame-card" id="frame2">
+                	<div class="content-1">
+                		<h1 class="text-center"><img src="images/bridge.png" width="150px" class="card-img-top" alt=""></h1>
+                	</div>
+                	<div class="content-2 p-4" >
+                					<div class="row">
+				<div class="col-md-12">
+					<h4 style="color: white" class="light">About Us</h4>
+			<p class="lead text-center">There are Partnerships with INDIA</p>
+			
+	<h4 style=" color: white" class="dark">What We Do </h4>
+			<p class="lead text-center">Initiation of Korea-India coexistence in clinical trials​</p>
+			
+		<h4 style="color: white" class="light">Strength</h4>
+			<p class="lead text-center">Trial Procedure: 10 Day in INDIA / 60 DAY in KOREA​</p>
+		
+			<h4 style=" color: white" class="dark">Benefit</h4>
+			<p class="lead text-center"><b>" Do More With Less "</b></p>
+				</div>
+
+			</div>
+                	</div>
+                </div>
+             </li>
+            <li data-flip-title="Deep Lilac" data-flip-category="Purples">
+              <div class="frame-card" id="frame3">
+                	  <div class="content-1">
+
+        		<h1 class="text-center" >STATISTICAL CONSULTING </h1>
+
+     
       </div>
       
-      <div class="content-2">
-      	<p class="lead info" >
-        ㈜리서치멘토는 임상시험수탁기관로서 서비스를 제공하고 있습니다. 2016년도부터 우리는 건강기능식품과 의약품, 의료기기의 개발을 원하는 고객의 신뢰할 수 있는 협력자로 고객들과 함께 발 맞춰 왔습니다. ​
-KISA의 후원 하에 2018년에 임상시험연구 대상자의 시험 순응도를 향상시키기 위한 climinder 솔루션을 개발하였고 현재, 특허 출원 하였습니다.
-      </p>
-      <hr>
-      <h4>Scope of Services</h4>
-			<div class="row">
-  <div class="col-4">
-    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-      <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Designing</a>
-      <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Data Management</a>
-      <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Statistical Services</a>
-      <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Medical Writing</a>
-      <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-etc" role="tab" aria-controls="v-pills-settings" aria-selected="false">ETC</a>
+          <div class="content-2 p-4">   
+          <p>
+    1 .    리서치 멘토의 통계 분석 팀은 컨설팅 영역의 핵심적인 역할 수행 ​ <br>
+
+2 . 연구자의 연구 목적에 맞는 분석 결과 도출 및 결과에 대한 방향 제시​ <br>
+
+3. 고객을 끝까지 책임지는 One-Stop Solution 통계 분석 
+        	</p>
+
+        	 
+        	<div class="row"> 
+       	<table class="table" style="border: 0px solid;">
+	<thead>
+		<tr></tr>
+	</thead>
+    <tbody >
+
+     <tr>
+  <td><button class="btn btn-danger">Biostatistics</button></td>
+  <td>	<p class="lead">샘플 사이즈 계산/ 난수 생성 / 의학 통계 분석/ 보고서 제작</p></td>
+  </tr>
+   
+    <tr>
+  <td><button class="btn btn-danger">Academic Statistics</button></td>
+  <td>	<p class="lead">연구 디자인 컨설팅/ 통계 분석 교육/ 학술 통계 분석 결과 보고서 제작 및 해석</p></td>
+  </tr>
+
+   <tr>
+  <td><button class="btn btn-danger">Big Data</button></td>
+  <td>	<p class="lead">Data Mining/ 연구 모형 컨설팅/ 보고서 제작</p></td>
+  </tr>
+  
+     <tr>
+  <td><button class="btn btn-danger">Service Area</button></td>
+  <td>	<p class="lead">설문 제작/ 만족도 조사/ Delphi조사</p></td>
+  </tr>
+
+
+
+    </tbody>
+  </table>
+        		
+        	
+        	</div>
+                </div>
+				</div>
+            </li>
+        </ul>
     </div>
-  </div>
-  <div class="col-8">
-    <div class="tab-content" id="v-pills-tabContent">
-      <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-      <ul class="nav navbar-nav">
-      	<li>
+
+    </div>
+    
+  
+<?php include 'pages/footer.html' ; ?>
+  <div class="overlay">
+    <div class="content-frame">
+    	<div class="content"> 
+    		  <div class="frame-card" id="frame4">
+               	  <div class="close"><i class="fas fa-times fa-lg"></i></div>
+                	  <div class="content-1">
+
+        		<h1 class="text-center" >학술 논문 통계 분석 의뢰 </h1>
+	
+     
+      </div>
+      
+          <div class="content-2 p-4">   
+       <h4 class="text-center" style="color:  rgb(110 ,28 ,30); font-weight: 900;margin-top: px">논문 작성을 위한 ONE-STOP SOLUTION!</h4>
+      			  	 <br>
+			  <p class="lead">
+			  	통계 분석과 관련된 자세한 상담을 위해 아래 자료를 보내주세요. <br> (효과적인 통계 분석을 위해 아래와 같은 자료가 필요합니다.) <br>  • 설문지와 코딩 데이터 <br> • 연구 주제 및 가설 <br>  • 분석 결과 시 원하는 양식의 참고 논문 <br> •  척도를 가져온 선행 논문 <br> • 별도로 원하는 분석 기법
+			  </p>
+			  <a class="btn btn-danger" href="contact.clinical.html" style="position: absolute; right: 40;bottom: 140">Contact Us</a>
+			
+			  <p class="lead">
+			  -	리서치 멘토는 다양한 통계 분석 프로그램(SPSS·AMOS·SAS·R·STATA 등)을 활용합니다. <br>- 당사의 서비스를 이용하게 된 경로에 따라 할인이 적용됩니다.
+			  </p>
+      
+                </div>
+				</div>
+			
+    	</div>
+
+    </div>
+    
+</div>
+
+
+
+
+
+
+
+
+
+<div class="modal fade" style="z-index: " id="Designing" tabindex="-1" role="dialog" aria-labelledby="Designing" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"> Designing</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        	     	<li>
       		• 임상연구 설계, 통계적 타당성 및 실현가능성 검토 
 (Clinical Development Planning (CDP), Study Design
  Consulting, Statistical Analysis Plan Development)
       	</li>
-      	
+      	<br>
       	  	<li>
       		• 표본크기 산출 (Calculation of Sample Size) 
       	</li>
-      	
+      		<br>
       	  	<li>
       		
 • IRB 심사 및 동의서 작성 (IRB Process Service, 
 Clinical Trial Agreement) 
       	</li>
-      	
+      		<br>
       	  	<li>
    
 • 연구 프로토콜 및 매뉴얼 작성 
 (Protocol Development Consulting) 
       	</li>
-      	
+      		<br>
       	<li>
       		
 • 연구 제안서 작성 및 프레젠테이션 준비 (
 Clinical Study Report Writing, Investigator meeting)
       	</li>
-      </ul>
-
- 
-
-
-
-
       </div>
-      <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-      	    <ul class="nav navbar-nav">
-      	<li>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+<div class="modal fade" style="z-index: " id="Data" tabindex="-1" role="dialog" aria-labelledby="Data" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"> Data Management</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        	      	<li>
       		• CRF 작성 (CRF (Paper CRF, e-CRF), 
   Development) 
       	</li>
@@ -95,46 +337,78 @@ Clinical Study Report Writing, Investigator meeting)
   Data Transfer) 
       	</li>
       	
-   
-      </ul>
-
-
       </div>
-      <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
-      	
-      	    <ul class="nav navbar-nav">
-      	<li>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="modal fade" style="z-index: " id="Statistical" tabindex="-1" role="dialog" aria-labelledby="Statistical" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"> Statistical Services</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        	         	<li>
       	   	• Study Proposal 내 통계분석방법 기술 (Statistical 
   Analysis Plan Development)
       	</li>
-      	
+      	<br>
       	  	<li>
      
  • 대상자수 산출 
   (Sample Size Calculation) • 통계분석 (Statistical 
   Programming&Validation, Statistical Analysis) 
       	</li>
-      	
+      		<br>
       	<li>
       		
 • 랜덤테이블 작성 (Generating Randomization Code) 
       	</li>
+      		<br>
       	<li>
       		
 • 보고서 작성 (Statistical Reports)
       	</li>
-   
-      </ul>
       	
-   
-
-
       </div>
-      <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
-      
-      
-      	 	    <ul class="nav navbar-nav">
-      	<li>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<div class="modal fade" style="z-index: " id="Medical" tabindex="-1" role="dialog" aria-labelledby="Medical" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"> Medical Writing</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        	             	<li>
       	  	• 영어논문 작성, 교정 및 저널 투고 (
    Clinical Study Report Writing 
    Publication) 
@@ -152,140 +426,37 @@ Clinical Study Report Writing, Investigator meeting)
 • CRF 작성 (CRF, Study Related Materials)
       	</li>
    
-   
-      </ul>
       	
-      			
-      		
-   
-
-
-
-      </div>
-      <div class="tab-pane fade" id="v-pills-etc" role="tabpanel" aria-labelledby="v-pills-settings-tab">
-      	• Issued research tax bill
       </div>
     </div>
   </div>
 </div>
-     </div>
-      
-    </div>
-    <div class="swiper-slide">
-  
-      <div class="content2">
-        <div class="row">
-        	<div class="col">
-        		<h1 class="title" data-swiper-parallax="-30%" data-swiper-parallax-scale=".7">BridgeCRO </h1>
-        <p class="caption" data-swiper-parallax="-20%">By Research Mentor </p>
-        	</div>
-        
-        	
-        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="modal fade" style="z-index: " id="ETC" tabindex="-1" role="dialog" aria-labelledby="ETC" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"> ETC</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
       </div>
-		
-
-		<div class="content-2 img">
-			
-			<div class="row">
-				<div class="col-md-6">
-					<h4 style="background: rgb(4, 20 ,36);; color: white">About Us</h4>
-			<p class="lead">There are Partnerships with INDIA</p>
-			
-	<h4 style="background: rgb(4, 20 ,36);; color: white">What We Do </h4>
-			<p class="lead">Initiation of Korea-India coexistence in clinical trials​</p>
-			
-		<h4 style="background: rgb(4, 20 ,36);; color: white">Strength</h4>
-			<p class="lead">Trial Procedure: 10 Day in INDIA / 60 DAY in KOREA​</p>
-		
-			<h4 style="background: rgb(4, 20 ,36); color: white">Benefit</h4>
-			<p class="lead"><b>" Do More With Less "</b></p>
-				</div>
-				<div class="col-md-6">
-					<img src="images/bridge.png" style=": 250px" class="img" alt="">
-				</div>
-			</div>
-			
-		</div>
-				
-    </div>
-    <div class="swiper-slide" style="background:white">
-      
-      <div class="content3">
-      <div class="row">
-        	<div class="col">
-        		<h1 class="title" data-swiper-parallax="-30%" data-swiper-parallax-scale=".7">STATISTICAL CONSULTING </h1>
-        <p class="caption" data-swiper-parallax="-20%">The role of a statistical consultant can be varied. Consultants are responsible for liaising with clients, delivering statistical analysis and research, and for providing statistical training, advice and support </p>
-        	</div>
-        	
-     
-        </div>
-      </div>
-      
-          <div class="content-2">   
-          <p>
-    1 .    리서치 멘토의 통계 분석 팀은 컨설팅 영역의 핵심적인 역할 수행 ​ <br>
-
-2 . 연구자의 연구 목적에 맞는 분석 결과 도출 및 결과에 대한 방향 제시​ <br>
-
-3. 고객을 끝까지 책임지는 One-Stop Solution 통계 분석 
-        	</p>
-
-        	
-        	<div class="row"> 
-        		<div class="col-md-6">
-        			<div class="row">
-        				<div class="col-5">
-        				<h5 style="background: #BF592A;padding: 5px;color: white">Biostatistics</h5>
-        				</div>
-        				<div class="col-7">
-        					<p class="lead">샘플 사이즈 계산/ 난수 생성 / 의학 통계 분석/ 보고서 제작</p>
-        				</div>
-        			</div>
-        			<div class="row">
-        				<div class="col-5">
-        				<h5 style="background: #BF592A;padding: 5px;color: white">Academic Statistics</h5>
-        				</div>
-        				<div class="col-7">
-        					<p class="lead">연구 디자인 컨설팅/ 통계 분석 교육/ 학술 통계 분석 결과 보고서 제작 및 해석 </p>
-        				</div>
-        			</div>
-        		</div>
-        			<div class="col-md-6">
-        			<div class="row">
-        				<div class="col-5">
-        					<h5 style="background: #BF592A;padding: 5px;color: white">Big Data</h5>
-        				</div>
-        				<div class="col-7">
-        					<p class="lead">Data Mining/ 연구 모형 컨설팅/ 보고서 제작</p>
-        				</div>
-        			</div>
-        			<div class="row">
-        				<div class="col-5">
-        					<h5 style="background: #BF592A;padding: 5px;color: white">Service Area</h5>
-        				</div>
-        				<div class="col-7">
-        					<p class="lead">설문 제작/ 만족도 조사/ Delphi조사</p>
-        				</div>
-        			</div>
-        		</div>
-        	</div>
-
-        	
- 
-        	
-		</div>
-        	
-    </div>
-
+      <div class="modal-body">
+       <li>	• Issued research tax bill</li>
    
-  </div>
-  
-  
-  
- 
-</section>
-
+      	
+      </div>
     </div>
-
-<?php include 'pages/footer.html' ; ?>
+  </div>
+</div>

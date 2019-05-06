@@ -1,244 +1,254 @@
-/* fonts */
-
-@font-face {
-  font-family: mb;
-  src: url('../fonts/Montserrat-Bold.ttf');
-}
-@font-face {
-  font-family: mbi;
-  src: url('../fonts/Montserrat-BoldItalic.ttf');
-}
-@font-face {
-  font-family: mm;
-  src: url('../fonts/Montserrat-Medium.ttf');
-}
-@font-face {
-  font-family: mr;
-  src: url('../fonts/Montserrat-Regular.ttf');
-}
-
-
 body{
-	background-color:white;
-	font-family: mr;
+	background-color:;
+	height: 100%;
 	margin: 0px;
 	padding: 0px;
 	overflow-x: hidden;
+		font-family: 'Nanum Gothic', sans-serif;
+
 }
-.jumbotron{
-	margin: 0 auto;
-	border-radius: 0px;
-}
+  
+.jumbotron{   
+	margin: 0 auto;  
+	border-radius: 0px;      
+} 
 .navbar{
-	background: white;
+	background: rgb(110 ,28 ,30); 
+	padding: 15px; 
+	font-family: 'Nanum Gothic', sans-serif;
 }
-.navbar .nav-link{
-	color: #232323;
-	font-family: mr;
-	margin-left: 20px;
+.navbar .nav-link{  
+	color: white; 
+	font-family: 'Nanum Gothic', sans-serif;
+	margin-left: 10px; 
+	font-weight: 00;
+	transition: all 0.3s;
+}
+.navbar .nav-link:hover{
+	opacity: 0.8;
+	font-weight: 500;
 }
 .navbar .dropdown{
 	position: static;
 	border-radius: 0px;
 }
 .navbar .dropdown-menu{ 
-	width: 100%;
+	width: 100%; 
 	text-align: right;
-	padding: 20px;
+	padding: 20px; 
 	margin: 0 ;
-	border-radius: 0px;
-	border: 0px solid;
-	background: rgb(4, 20 ,36);
-	
+	border-radius: 0px; 
+	border: 0px solid;  
+	background: rgb(4, 20 ,36);   
+	  
 }
-.navbar .dropdown-menu a{
+.navbar .dropdown-menu a{ 
 	display: table-cell;
-	padding: 20px;
+	padding: 20px; 
 	color: rgb(150, 171, 191);
 	transition: all 0.3s;
-}
-.navbar .dropdown-menu a:hover{
+}  
+.navbar .dropdown-menu a:hover{ 
 	background: transparent;
-	color: white;
-}
-.navbar .btn{
+	color: white;      
+}  
+.navbar .btn{   
 	border-radius: 20px;
-	background: #A93926;
-	border: 0px solid white;
-	box-shadow: 0px 2px 5px 1px rgba(128, 128, 128, 0.1);
+	background: ; 
+	border: 0px solid white; 
+	box-shadow: 0px 2px 5px 1px rgba (128, 128, 128, 0.1);
 	transition: 0.3s;
 	line-height: 1.7;
 }
 .navbar .btn:hover{
-	box-shadow: 0px 0px 5px 3px rgba(128, 128, 128, 0.3);
-}
+	box-shadow: 0px 0px 5px 3px rgba(128, 128, 128, 0.3); 
+}  
+ 
 
-
-
-
-
-/* slider css */
-
-#section-main{
-	margin: 0 auto;
-	z-index: -1;
-	position: static;
-	width: 100%;
-	height:470px;
-	position: 0px;
-
+#frame1{
+	background: white;
+} 
+#frame1 .content-1{
 	
-	background-attachment: fixed;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
+	padding: 1px;
+			background:  linear-gradient(70deg, rgba(4, 20, 36, 0.55) 50%,rgba(4, 20, 36, 0.55) 50%) ,url('../images/cro.jpg');
+	background-size: cover;
+	background-attachment: ; 
 }
-
-.swiper-container{
-	width: 130%;
-	height: 400px;
-	position: absolute;
-	left: 0;
-	margin-left: -200px;
-	overflow: hidden;
-	margin-top:-30px;
-	background-attachment: fixed;
-}
-.swiper-wrapper{
-	-webkit-box-align: center;
-    -webkit-align-items: center;
-    -moz-box-align: center; 
-    -ms-flex-align: center;
-    align-items: center;
-}
-.swiper-slide{
-	background-color: white;
-	padding: 0px;
-	border-radius: 10px;
-	box-shadow: 0px 0px 5px 2px rgba(128, 128, 128, 0.13);
-	border: 0px solid  #BF592A;
-
+#frame1 .content-1 h1{
+	color: white;
+	font-weight: 900;   
 	 
 }
- 
-.swiper-slide .content1{
-	width: 100%;
-	margin-top:30px;
-	background: linear-gradient(70deg, rgba(4, 20, 36, 0.75) 50%,rgba(4, 20, 36, 0.75) 50%) ,url('../images/cro.jpg');
-	padding: 10px;
-	color: white;
-	font-family: mm;
-	background-size:cover; 
-	background-position: center;
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
+#frame1 .content-2 .lead{
+	font-size: 15px;
+}
+#frame1 table td{
+	padding-top: 5px;
+	margin: px;  
 } 
-
-.swiper-slide .content2{
-	background: linear-gradient(70deg,rgba(4, 20, 36, 0.75) 50%,rgba(4, 20, 36, 0.75) 50%) ,url('../images/br.png');
-	padding: 10px;
-	color: white;
-	font-family: mm;
-	background-size:cover;
-	background-position: center;
-		border-top-left-radius: 10px; 
-	border-top-right-radius: 10px;
-}
-
-.swiper-slide .content3{
-	background: linear-gradient(70deg, rgba(4, 20, 36, 0.75) 50%,rgba(4, 20, 36, 0.75) 50%) ,url('../images/stat.jpg');
-	padding: 10px;
-	color: white;
-	font-family: mm;
-	background-size:cover;
-	background-position: center;
-		border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
-	
-}
-
-
-.swiper-slide .content1,.content2,.content3 h1{
-	font-family: mm;
-	padding-top:10px;
-}
-.swiper-slide .content1,.content2,.content3 p{
-	margin: 0px;
-	padding-left: 10px;
-	margin-top: -10px;
-	font-family: mr;
-	font-size: 13px;
-}
-.swiper-slide .content-2{
-	padding: 20px;
- 
-}
-.swiper-slide .content-2 p{
-		font-family: mr;
-	font-size: 14px;
-}
-.swiper-slide .nav-pills a{
-	font-size: 12px;
-	padding: 5px;
-	color: rgb(4, 20 ,36);
-
-}
-.swiper-slide .nav-pills .active{
-	background: rgb(4, 20 ,36);
-	color: white;
-}
-.swiper-slide  .tab-content li{
-	font-size: 13px;
-}
-.swiper-slide .content-2 h4{ 
-		font-family: mm;
-	font-size: 16px;
-	padding: 3px;
-}
-.swiper-slide .img  img{
-	width: 300px; 
-	margin-top: 80px;
-	margin-left: 50px;
-}
-.swiper-slide .content-2 .btn{
-	padding: 20px;
-	font-family: mr;
+#frame1 table td{
 	border: 0px solid;
+} 
+#frame1 table .btn{ 
+	border: 2px solid rgb(2 50  ,112 ,107);
 	border-radius: 0px;
-	background: #BF592A;
-
+	background:  rgb(110 ,28 ,30); 
+	font-weight: 600; 
 }
-.swiper-slide .content-2  #ecrfimg img{
-	position: absolute;
-	margin-right: px;
-	right: 0;
-	margin-top: -10px;
-	width: 220px;
+#frame1 .content-2 h4{
+	font-weight: 600; 
+} 
+#frame2{ 
+	padding: 1px;
+			background:  linear-gradient(70deg, rgba(4, 20, 36, 0.75) 50%,rgba(4, 20, 36, 0.75) 50%) ,url('../images/image41.jpeg');
+	background-size: cover;
+	color: white; 
+}
+#frame2 img{ 
+	width: 150px;
+ 
+}
+#frame2 .content-2 .row{
+	margin-top: -30px;
+}
+#frame2 .content-2 h4{
+	padding: 5px;
+	background: rgba(0, 0, 0, 0.59);
+}
+#frame2 .content-2 p{
+	font-size: 18px;
+}
+#frame2 .content-2 .light{
+	border-left: 7px solid;
 	
 }
- @media (max-width: 1180px) {
-	 .swiper-slide .content .title {
-		 font-size: 25px;
-	}
-	 .swiper-slide .content .caption {
-		 font-size: 12px;
-	}
+#frame2 .content-2 .dark{
+	border-left: 7px solid #718cff;
+	 
+}  
+#frame3{
+	background: white;
 }
- @media (max-width: 1023px) {
-	 .swiper-container {
-		 height: 40vw;
-	}
-	 .swiper-container.swiper-container-coverflow {
-		 padding-top: 0;
-	}
+#frame3 .content-1{
+		padding: 1px; 
+			background:  linear-gradient(70deg, rgba(4, 20, 36, 0.55) 50%,rgba(4, 20, 36, 0.55) 50%) ,url('../images/image11.jpg');
+	background-size: cover;
+	background-position: center;
+	background-attachment: ;
+	color: white; 
+	
 }
- 
+#frame3 .content-2 .row .btn{
+		border: 2px solid rgb(250  ,112 ,107);
+	border-radius: 0px;
+	background:  rgb(110 ,28 ,30); 
+	font-weight: 600; 
+	color: white;
+	padding: 5px;
+	font-size: 17px;
+	width: 200px;
+	margin-top: -10px;
+}
+#frame3 .content-2  .row p{
+	font-size: 17px;
+	margin-top: -10px;
+	
+}
+#frame3 table td{
+	border: 0px solid; 
+}  
+#frame4 .content-1{
+		padding: 1px; 
+			background:  linear-gradient(70deg, rgba(4, 20, 36, 0.55) 50%,rgba(4, 20, 36, 0.55) 50%) ,url('../images/image11.jpg');
+	background-size: cover;
+	background-position: center;
+	background-attachment: ;
+	color: white; 
+	
+}
+#frame4 .content-2 p{
+	font-size: 18px;
+}
+#frame4 .close{
+	background: white;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	position: absolute;
+	right: -10;
+	margin-top: -10px;
+	opacity: 1;
+	border-radius: 100px;
+	font-size: 15px;padding: 8px;
+}
+#frame4 .btn{
+		border: 2px solid rgb(250  ,112 ,107);
+	border-radius: 0px;
+	background:  rgb(110 ,28 ,30); 
+	font-weight: 600; 
+	color: white;
+	padding: 5px;
+	font-size: 17px;
+	width: 150px;
+	margin-top: -10px;
+}
+.overlay{
+			overflow:;  
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	transition: all 0.5s;
+	background: rgba(0, 0, 0, 0.5);
+	top: 0;  
+	bottom: 0;
+	left: 0;
+	display: none;
+	z-index: 9;
+} 
+.overlay .content{
+	width: 650px;
+	height: 500px;
+	background: white;
+	position: absolute;
+	top: 50%;
+	right: 50%;
+	transform: translate(50%,-50%);
+	overflow: ;
+	box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.17);
+	border-radius: 0px;
+	
+	
+}
+.overlay .content .frame4{
+	width: 400px;
+	height: 500px;
+	background: white;
+}
+.modal-content{
+	border-radius: 0px;
+	border: 0px solid;
+		box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.17);
+}
+.modal-content h5{
+	font-weight: 900;
+}
+.modal-content li{
+	list-style: none;
+}
+footer {
+	margin-top: -20px;
+}
 #footer{
 	background-color: rgb(4, 20 ,36);
 	color: white;
 	padding: 10px;
+	position: relative;  
+	
 } 
+#footer h4{
+	font-weight: 600;
+}
 #footer ul{
 	list-style: none;
 }
@@ -251,8 +261,9 @@ body{
 	border-radius: 10px;
 	padding: 10px;
 }
-#footer #bro .card{
-	
+#footer #bro {
+	 background: rgb(61, 82 ,102);
+	border-radius: 0px;
 }
 #footer #bro img{
 	width: 100px;
@@ -284,30 +295,30 @@ body{
 	background-size: cover;
 	background-attachment: fixed;
 	color: white;
-	font-family: mb;
+	font-family: 'Nanum Gothic', sans-serif;
 	
 }
 .form{
-	font-family: mr;
+		font-family: 'Nanum Gothic', sans-serif;
 	color:  rgb(4, 20 ,36);
 }
  .form input{
 	padding: 15px;
-	 border-bottom: 2px solid  rgb(4, 20 ,36);;
+	 border-bottom: 2px solid  rgb(4, 20 ,36);
 }
 .form .custom-select{
-	padding:px;
+	padding:px; 
 	 border-bottom: 2px solid  rgb(4, 20 ,36);;
 }
 .form textarea{
 		padding: 15px;
 	 border-bottom: 2px solid  rgb(4, 20 ,36);;
-	font-family: mr;
+		font-family: 'Nanum Gothic', sans-serif;
 }
 .form .btn{
 	width: 250px;
 	float: right;
-	font-family: mm;
+		font-family: 'Nanum Gothic', sans-serif;
 	border-radius: ;
 	border: 0px solid;
 	background:  rgb(4, 20 ,36);;
@@ -317,7 +328,8 @@ body{
 	background-size: cover;
 	background-attachment: fixed;
 	color: white;
-	font-family: mb;
+	font-family: 'Nanum Gothic', sans-serif;
+	font-weight: ;
 	
 }
 #bridge{
@@ -325,14 +337,14 @@ body{
 	background-size: cover;
 	background-attachment: fixed;
 	color: white;
-	font-family: mb;
+	font-family: 'Nanum Gothic', sans-serif;
 }
 #cro{
 	background: linear-gradient(70deg, rgba(4, 20, 36, 0.75) 50%,rgba(4, 20, 36, 0.75) 50%) ,url('../images/cro.jpg');
 	background-size: cover;
 	background-attachment: fixed;
 	color: white;
-	font-family: mb; 
+	font-family: 'Nanum Gothic', sans-serif; 
 	
 }
 #stat{
@@ -340,7 +352,7 @@ body{
 	background-size: cover;
 	background-attachment: fixed;
 	color: white;
-	font-family: mb;
+	font-family: 'Nanum Gothic', sans-serif;
 	
 }
 #tabs {
@@ -358,15 +370,15 @@ body{
 }
 #tabs  a{
 	padding: 15px;
-		border-radius: 0px;
+		border-radius: 0px; 
 	border: 0px solid;
 	color: white;
-	font-family: mr;
+		font-family: 'Nanum Gothic', sans-serif;
 	
 }
 #tabs  a.active{
 	color: rgba(4, 20, 36);
-	font-family: mm;
+		font-family: 'Nanum Gothic', sans-serif;
 }
 #tabs h2{
 	padding: 10px;
@@ -374,13 +386,13 @@ body{
 	width: 500px;
 	padding-left: 20px;
 	color: ;
-	font-family: mm;
+		font-family: 'Nanum Gothic', sans-serif;
 }
 #tabs h4{
 	font-weight: 900;
 }
 #tabs p{
-	font-family: mr;
+		font-family: 'Nanum Gothic', sans-serif;
 	
 }
 #tabs #brand-images{
@@ -420,31 +432,31 @@ body{
 		margin: 0px;
 		margin-top: -20px;
 	}
-	.swiper-slide{
+	#main{
 		margin-top:;
 		width: 320px;
 		height: 100%;
 	}
-	.swiper-slide h1{
+	#main h1{
 		font-size: 25px;
 	}
-	.swiper-slide p{
+	#main p{
 		font-size: 10px;
-		font-family: mr;
+			font-family: 'Nanum Gothic', sans-serif;
 	}
-	.swiper-slide h5{
+	#main h5{
 		font-size: 12px;
 	}
-	.swiper-slide .content-2 p{
+	#main .content-2 p{
 		font-size: 12px;
 	}
-	.swiper-slide .content-2 .lead{
+	#main .content-2 .lead{
 		font-size: 8px;
 	}
-	.swiper-slide .content-2 li{
+	#main .content-2 li{
 		font-size: 9.6px;
 	}
-	.swiper-slide .content-2 img{
+	#main .content-2 img{
 		width: 200px;
 		margin-top: 20px;
 		margin-left: 40px;
