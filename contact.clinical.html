@@ -4,99 +4,101 @@
 <?php include 'pages/header.html';  ?>
 
 <div class="jumbotron" id="contact">
-	<div class="container">
-		<h1 class="text-center display-4">Contact Us</h1>
-	</div>
-	
+  <div class="container">
+    <h1 class="text-center display-4">Contact Us</h1>
+  </div>
+
 </div>
 <div class="container  cro" id="tabs">
-	<center>
-		<ul class="nav nav-tabs navbar-center justify-content-center" id="myTab" role="tablist">
-  <li class="nav-item">
-    <a class="nav-link active"  href="contact.clinical.html" >Clinical Enquiry</a>
-  </li>
-    <li class="nav-item">
-    <a class="nav-link " href="contact.stat.html"  >Statistical Enquiry</a>
-  </li>
+  <center>
+    <ul class="nav nav-tabs navbar-center justify-content-center" id="myTab" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" href="contact.clinical.html">Clinical Enquiry</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="contact.stat.html">Statistical Enquiry</a>
+      </li>
 
-  
-   
-</ul>
-	</center>
-<div class="tab-content" id="myTabContent">
- 
-  <div class="tab-pane fade show active" id="about" role="tabpanel" aria-labelledby="home-tab">
-  <br>
-  <br>
-  	<h2>Clinical Enquiry</h2>
 
-  
-  	
-  	<br>
-  	<p class="lead">
- Research Mentor's Clinical CRO department will help you to achieve optimal results in terms of cost, time and quality as your new drug / health functional food development partner  	</p>
 
-	<br>
-	<center>
-		<div class="card">
-			<img src="images/frhgdg.png"  style="padding: 20px;"alt="" class="card-img-top">
-		</div>
-	</center>
-	<br>
-	  	<h4>Enquiry About Clinical Issue</h4>
-	  	<br>
-	<div class="container">
-		<form class="form" action="#" name="form" method="post" >
-    		<div class="form-row">
-    <div class="col-md">
-      <input type="text" class="form-control required" placeholder="Name"   name="name">
-    </div>
-    <div class="col-md">
-      <input type="number" class="form-control required" placeholder="Phone " name="phone">
-    </div>
-    <div class="col-md">
-      <input type="email" class="form-control required" placeholder="Email"   name="email">
+    </ul>
+  </center>
+  <div class="tab-content" id="myTabContent">
+
+    <div class="tab-pane fade show active" id="about" role="tabpanel" aria-labelledby="home-tab">
+      <br>
+      <br>
+      <h2>Clinical Enquiry</h2>
+
+
+
+      <br>
+      <p class="lead">
+        Research Mentor's Clinical CRO department will help you to achieve optimal results in terms of cost, time and
+        quality as your new drug / health functional food development partner </p>
+
+      <br>
+      <center>
+        <div class="card">
+          <img src="images/frhgdg.png" style="padding: 20px;" alt="" class="card-img-top">
+        </div>
+      </center>
+      <br>
+      <h4>Enquiry About Clinical Issue</h4>
+      <br>
+      <div class="container">
+        <form class="form" action="#" name="form" method="post">
+          <div class="form-row">
+            <div class="col-md">
+              <input type="text" class="form-control required" placeholder="Name" name="name">
+            </div>
+            <div class="col-md">
+              <input type="number" class="form-control required" placeholder="Phone " name="phone">
+            </div>
+            <div class="col-md">
+              <input type="email" class="form-control required" placeholder="Email" name="email">
+            </div>
+          </div>
+          <br>
+          <div class="form-row">
+            <div class="col-md">
+              <input type="text" class="form-control required" placeholder="Company" name="company">
+            </div>
+            <div class="col-md">
+              <input type="text" class="form-control required" placeholder="Divisions" name="division">
+            </div>
+            <div class="col-md">
+              <input type="text" class="form-control required " placeholder="Position" name="position">
+            </div>
+          </div>
+          <br>
+          <select class="custom-select " id="inlineFormCustomSelectPref" name="dropdown">
+            <option selected>Services</option>
+            <option value="For bio medical research">For bio medical research</option>
+            <option value="For social science">For social science</option>
+            <option value=" For big"> For big </option>
+            <option value="For business ">For business
+            </option>
+          </select>
+          <br>
+          <br>
+          <textarea class="form-control required" rows="4" name="message" id="validationTextarea"
+            placeholder="Explain here" required></textarea>
+
+          <br>
+          <input class="btn btn-danger" name="send" type="submit" value="submit">
+          <p><?php include 'mail/secure_contact_form.php';  ?></p>
+        </form>
+      </div>
+
+
+      <br>
+
+
     </div>
   </div>
-   	<br>
-   		<div class="form-row">
-    <div class="col-md">
-      <input type="text" class="form-control required" placeholder="Company"   name="company">
-    </div>
-    <div class="col-md">
-      <input type="text" class="form-control required" placeholder="Divisions"   name="division">
-    </div>
-    <div class="col-md">
-      <input type="text" class="form-control required " placeholder="Position"  name="position">
-    </div>
-  </div>
-<br>
-  	<select class="custom-select " id="inlineFormCustomSelectPref" name="dropdown">
-    <option selected>Services</option>
-   <option value="For bio medical research">For bio medical research</option>
-    <option value="For social science">For social science</option>
-    <option value=" For big"> For big </option>
-    <option value="For business ">For business 
-</option>
-  </select>
-   	<br>
-   	<br>
-   	 <textarea class="form-control required" rows="4" name="message"  id="validationTextarea" placeholder="Explain here" required></textarea>
-   
-   	 <br>
-   	 <input class="btn btn-danger" name="send" type="submit" value="submit" >
-   	 <p><?php include 'mail/secure_contact_form.php';  ?></p>
-    	</form>
-	</div>
-
-
-  	<br>
-
-
-  </div>
-	</div>
 </div>
 <br>
- <br>
- <br>
-  <?php include 'pages/footer.html';  ?>
+<br>
+<br>
+<?php include 'pages/footer.html';  ?>
