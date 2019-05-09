@@ -38,27 +38,28 @@ body{
 	padding: 20px; 
 	margin: 0 ;
 	border-radius: 0px; 
-	border: 0px solid;  
+	border: 0px solid;   
 	background: rgb(4, 20 ,36);   
 	  
 }
 .navbar .dropdown-menu a{ 
-	display: table-cell;
-	padding: 20px; 
+	display: table-cell; 
+	padding: 20px;  
 	color: rgb(150, 171, 191);
-	transition: all 0.3s;
+	transition: all 0.3s; 
 }  
 .navbar .dropdown-menu a:hover{ 
 	background: transparent;
 	color: white;      
 }  
 .navbar .btn{   
-	border-radius: 20px;
-	background: ; 
+	border-radius: px;
+	background:white ; 
 	border: 0px solid white; 
 	box-shadow: 0px 2px 5px 1px rgba (128, 128, 128, 0.1);
 	transition: 0.3s;
 	line-height: 1.7;
+	color: rgb(110 ,28 ,30);
 }
 .navbar .btn:hover{
 	box-shadow: 0px 0px 5px 3px rgba(128, 128, 128, 0.3); 
@@ -99,6 +100,21 @@ body{
 #frame1 .content-2 h4{
 	font-weight: 600; 
 } 
+#frame1 h1 a{
+	text-decoration: none;
+	color: white;
+	font-weight: 900;
+}
+#frame2 h1 a{
+	text-decoration: none;
+	color: white;
+	font-weight: 900;
+}
+#frame3 h1 a{
+	text-decoration: none;
+	color: white;
+	font-weight: 900;
+}
 #frame2{ 
 	padding: 1px;
 			background:  linear-gradient(70deg, rgba(4, 20, 36, 0.75) 50%,rgba(4, 20, 36, 0.75) 50%) ,url('../images/image41.jpeg');
@@ -336,7 +352,7 @@ footer {
 	background-attachment: fixed;
 	color: white;
 	font-family: 'Nanum Gothic', sans-serif;
-	font-weight: ;
+	font-weight: ; 
 	
 }
 #bridge{
@@ -347,7 +363,7 @@ footer {
 	font-family: 'Nanum Gothic', sans-serif;
 }
 #cro{
-	background: linear-gradient(70deg, rgba(4, 20, 36, 0.75) 50%,rgba(4, 20, 36, 0.75) 50%) ,url('../images/cro.jpg');
+	background: linear-gradient(70deg, rgba(0, 0, 0, 0.75) 50%,rgba(0, 0, 0, 0.75) 50%) ,url('../images/cro.jpg');
 	background-size: cover;
 	background-attachment: fixed;
 	color: white;
@@ -361,6 +377,9 @@ footer {
 	color: white;
 	font-family: 'Nanum Gothic', sans-serif;
 	
+}
+#tabs  .btn{
+	background: transparent;
 }
 #tabs {
 	margin-top: -20px;
@@ -382,25 +401,29 @@ footer {
 #tabs  a{
 	padding: 20px; 
 		border-radius: 0px; 
-	border: 0px solid;
+	border: 0px solid;  
 	color: rgba(4, 20, 36);
-		font-family: 'Nanum Gothic', sans-serif;
+	background: transparent;
+		font-family: 'Nanum Gothic', s ans-serif;
+	transition: all 0.3s;
 	
 }
-#tabs  a.active{
-	background: rgba(4, 20, 36);
-	font-weight: 600;
+#tabs  a:hover{ 
+	background:rgb(61, 82 ,102);
+	
 		font-family: 'Nanum Gothic', sans-serif;
 	border-top: 0px solid white;
 	color: white;
 }
 #tabs h2{
-	padding: 10px;
+	padding: 10px; 
+	background: rgb(61, 82 ,102);
 	border-left: 6px solid #BF592A;
-	width: 500px;
-	padding-left: 20px;
-	color: ;
+	width: 400px;
+	padding-left: 20px; 
+	color: white;
 		font-family: 'Nanum Gothic', sans-serif;
+	position: ;
 }
 #tabs h4{
 	font-weight: 900;
@@ -413,12 +436,12 @@ footer {
 	padding: 20px;
 }
 #tabs #brand-images .card{
-	border: 0px solid;
+	border: 0px solid; 
 	margin: 30px;
 	padding: 20px;
 }
-#tabs #organization .card{
-	border: 0px solid;
+#tabs #organization .card{  
+	border: 0px solid;  
 	margin: 10px;
 }
 #tabs #organization .list-group-item.active{
@@ -427,7 +450,11 @@ footer {
 	border-radius: 0px;
 }
 
+#tabs .info{
+	padding: 20px;
+	padding-top: 30px;
 
+}
 @media (min-width: 320px) and (max-width: 480px) { 
 	body{
 		overflow-x hidden;

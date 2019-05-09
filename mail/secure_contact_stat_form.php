@@ -5,7 +5,7 @@ if(isset($_POST['send'])) {
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
     $email_to = "stats@researchmentor.co.kr";
-    $email_subject = "Statistical Enquiry";
+    $email_subject = "Clinical Enquiry";
  
     function died($error) {
         // your error code can go here
@@ -98,4 +98,5 @@ $headers = 'From: '.$email."\r\n".
 
  
 }
+
 ?>
