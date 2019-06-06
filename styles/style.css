@@ -58,14 +58,58 @@ body{
 	border: 0px solid white; 
 	box-shadow: 0px 2px 5px 1px rgba (128, 128, 128, 0.1);
 	transition: 0.3s;
-	line-height: 1.7;
+	line-height: 1.7;  
 	color: rgb(110 ,28 ,30);
 }
 .navbar .btn:hover{
 	box-shadow: 0px 0px 5px 3px rgba(128, 128, 128, 0.3); 
 }  
  
- 
+ #frame5{
+	background: white;
+}  
+#frame5 .content-1{
+	
+	padding: 1px;
+			background:  linear-gradient(70deg, rgba(4, 20, 36, 0.55) 50%,rgba(4, 20, 36, 0.55) 50%) ,url('../images/image11.jpg');
+	background-size: cover;
+    background-position: bottom;
+	background-attachment: ; 
+}
+#frame5 .content-1 h1{
+	color: white;
+	font-weight: 900;   
+	 
+}
+#frame5 .content-2 .lead{
+	font-size: 15px;
+}
+#frame5 table td{
+	padding-top: 5px;
+	margin: px;  
+} 
+#frame5 table td{
+	border: 0px solid;
+} 
+#frame5 table .btn{ 
+	border: 2px solid rgb(2 50  ,112 ,107);
+	border-radius: 0px;
+	background:  rgb(110 ,28 ,30); 
+	font-weight: 600; 
+}
+#frame5 .content-2 h4{
+	font-weight: 600; 
+} 
+#frame5 h1 a{
+	text-decoration: none;
+	color: white;
+	font-weight: 900;
+}
+
+
+
+
+
 
 #frame1{
 	background: white;
@@ -353,12 +397,20 @@ footer {
 	background-attachment: fixed;
 	color: white;
 	font-family: 'Nanum Gothic', sans-serif;
-	font-weight: ; 
+	font-weight: ;  
 	
-}
-#bridge{
+} 
+#bridge{ 
 	background: linear-gradient(70deg, rgba(4, 20, 36, 0.75) 50%,rgba(4, 20, 36, 0.75) 50%) ,url('../images/br.png');
 	background-size: cover;
+	background-attachment: fixed;
+	color: white;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+#bigdata{
+	background: linear-gradient(70deg, rgba(4, 20, 36, 0.75) 50%,rgba(4, 20, 36, 0.75) 50%) ,url('../images/image11.jpg');
+	background-size: cover;
+    background-position: bottom;
 	background-attachment: fixed;
 	color: white;
 	font-family: 'Nanum Gothic', sans-serif;
@@ -440,10 +492,10 @@ footer {
 	border: 0px solid; 
 	margin: 30px;
 	padding: 20px;
-}
+} 
 #tabs #organization .card{  
 	border: 0px solid;  
-	margin: 10px;
+	margin: 10px; 
 }
 #tabs #organization .list-group-item.active{
 	background:#BF592A ;
@@ -456,7 +508,16 @@ footer {
 	padding-top: 30px;
 
 }
-
+#big-data-partner{
+    margin: 20px;
+    padding: 20px;
+} 
+#big-data-partner .card{
+    padding: 10px;
+    border: 0px solid;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px 5px rgba( 159, 159, 159, 0.17 );
+}
 @media (min-width: 320px) and (max-width: 480px) { 
 	body{
 		overflow-x hidden;
@@ -525,4 +586,65 @@ footer {
 	
 	
 	
+}
+
+@media (min-width: 1370px) and (max-width: 1920px){
+     
+  .flipster--carousel {
+    /*    .flipster__item--past .flipster__item__content { 
+      transform: translateX(100%) rotateY(-20deg) scale(0.5);
+    }*/
+    width: 100%;
+    margin-top: 20px;
+    height: 650px;
+    perspective: 1000px;
+    opacity: 1;
+    overflow: hidden;
+  }
+	#frames { 
+    background-image: url('images/back.png');
+    background-size: cover;
+    background-attachment: ;
+    background-repeat: no-repeat;
+  }
+
+  #frames .frame-card {
+    background: ;
+    width: 900px;
+    height: 550px;
+
+    margin: -170px;
+        margin-top: 50px;
+    border: 2px solid brown;
+    border-radius: 0px;
+    opacity: 1;
+      margin-bottom: 
+  }
+    #frame1 .content-1 h1{
+        padding: 10px;
+    }
+    #frame2 .content-1 h1{
+        padding: 10px;
+    }
+    #frame3 .content-1 h1{
+        padding: 10px;
+    }
+    #frame1 table .btn{ 
+	border: 2px solid rgb(250  ,112 ,107);
+	border-radius: 0px;
+        padding: 10px;
+        width: 300px;
+	background:  rgb(110 ,28 ,30); 
+	font-weight: 600; 
+        text-align: center;
+}
+    #frame1  .content-2 .lead{
+        font-size: 20px;
+    }
+    #frame2  .content-2 h4{
+        padding:  15px;
+    }
+    #frame3  .content-2 p{
+        font-size: 20px;
+    }
 }
