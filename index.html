@@ -3,67 +3,190 @@
 
 
 <style>
-  .flipster--carousel {
-    /*    .flipster__item--past .flipster__item__content { 
-      transform: translateX(100%) rotateY(-20deg) scale(0.5);
-    }*/
-    width: 100%;
-    margin-top: 50px;
-    margin-bottom: 20px;
-    height: 500px;
-    perspective: 1000px;
-    opacity: 1;
-    overflow: hidden;
-  }
 
-  .flipster--carousel .flipster__item--future-2 {
-    -webkit-transform: translateX(-241%);
-    transform: translateX(-240%);
-
-  }
-
-  .flipster--carousel .flipster__item--future-2 .flipster__item__content {
-    -webkit-transform: rotateY(45deg) scale(0.8);
-    transform: rotateY(45deg) scale(0.8);
-
-  }
-
-  .flipster--carousel .flipster__item--past-2 {
-    -webkit-transform: translateX(241%);
-    transform: translateX(240%);
-
-  }
-
-  .flipster--carousel .flipster__item--past-2 .flipster__item__content {
-    -webkit-transform: rotateY(-45deg) scale(0.8);
-    transform: rotateY(-45deg) scale(0.8);
-
-  }
 
   #frames {
     background-image: url('images/back.png');
     background-size: cover;
     background-attachment: ;
     background-repeat: no-repeat;
+      height: 600px;
+      overflow: hidden;
+      width: 100%;
   }
 
   #frames .frame-card {
     background: ;
     width: 700px;
     height: 450px;
-    margin: -150px;
-    margin-top: -1px;
+    margin: -120px;
+       margin-top:50px;
+      margin-bottom: 50px;
     color: ;
     border: 2px solid brown;
     border-radius: 0px;
     opacity: 1;
+      overflow: hidden;
   }
+     
+@media (min-width: 1370px) and (max-width: 1920px){
+     
+ 
+	#frames { 
+    background-image: url('images/back.png');
+    background-size: cover;
+    background-attachment: ;
+    background-repeat: no-repeat;
+        overflow: hidden;
+      
+  }
+ 
+  #frames .frame-card {
+    background: ;
+    width: 900px;
+    height: 550px;
+overflow: hidden;
+    margin: -170px;
+        margin-top: 50px;
+    border: 2px solid brown;
+    border-radius: 0px;
+    opacity: 1;
+      margin-bottom: 
+  }
+    #frame1 .content-1 h1{
+        padding: 10px;
+    }
+    #frame2 .content-1 h1{
+        padding: 10px;
+    }
+    #frame3 .content-1 h1{
+        padding: 10px;
+    }
+    #frame1 table .btn{ 
+	border: 2px solid rgb(250  ,112 ,107);
+	border-radius: 0px;
+        padding: 10px;
+        width: 300px;
+	background:  rgb(110 ,28 ,30); 
+	font-weight: 600; 
+        text-align: center;
+}
+    #frame1  .content-2 .lead{
+        font-size: 20px;
+    }
+    #frame2  .content-2 h4{
+        padding:  15px;
+    }
+    #frame3  .content-2 p{
+        font-size: 20px;
+    }
+}
+
+    
+    .flipster--infinite-carousel li {
+  list-style: none;
+    
+}
+.flipster--infinite-carousel .flipster {
+  outline: none !important;
+   
+}
+.flipster--infinite-carousel .flipster__container,
+.flipster--infinite-carousel .flipster__item {
+  -moz-transition: all 350ms ease-in-out;
+  -o-transition: all 350ms ease-in-out;
+  -webkit-transition: all 350ms ease-in-out;
+  transition: all 350ms ease-in-out;
+  -moz-transition-timing-function: cubic-bezier(0.56, 0.12, 0.12, 0.98);
+  -o-transition-timing-function: cubic-bezier(0.56, 0.12, 0.12, 0.98);
+  -webkit-transition-timing-function: cubic-bezier(0.56, 0.12, 0.12, 0.98);
+  transition-timing-function: cubic-bezier(0.56, 0.12, 0.12, 0.98);
+  padding: 0 !important;
+   
+}
+.flipster--infinite-carousel .flipster__item__content {
+  -moz-transition: inherit;
+  -o-transition: inherit;
+  -webkit-transition: inherit;
+  transition: inherit;
+  
+  
+  
+}
+.flipster--infinite-carousel .flipster__item {
+  position: absolute;
+  opacity: 0;
+  -moz-perspective: 1000px;
+  -ms-perspective: 1000px;
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+    
+}
+.flipster--infinite-carousel .flipster__item--past-2,
+.flipster--infinite-carousel .flipster__item--future-2 {
+  opacity: 1;
+  -moz-transition-delay: 90ms;
+  -o-transition-delay: 90ms;
+  -webkit-transition-delay: 90ms;
+  transition-delay: 90ms;
+}
+.flipster--infinite-carousel .flipster__item--past-1,
+.flipster--infinite-carousel .flipster__item--future-1 {
+  opacity: 1;
+  -moz-transition-delay: 60ms;
+  -o-transition-delay: 60ms;
+  -webkit-transition-delay: 60ms;
+  transition-delay: 60ms;
+}
+.flipster--infinite-carousel .flipster__item--current {
+  opacity: 1;
+  -moz-transition-delay: 0;
+  -o-transition-delay: 0;
+  -webkit-transition-delay: 0;
+  transition-delay: 0;
+}
+.flipster--infinite-carousel .flipster__item--past .flipster__item__content,
+.flipster--infinite-carousel .flipster__item--future .flipster__item__content {
+  -moz-transform: scale(0.5);
+  -ms-transform: scale(0.5);
+  -o-transform: scale(0.5);
+  -webkit-transform: scale(0.5);
+  transform: scale(0.5);
+}
+.flipster--infinite-carousel .flipster__item--past-2 .flipster__item__content {
+  -moz-transform: translateX(-65%) rotateY(65deg) scale(0.75);
+  -ms-transform: translateX(-65%) rotateY(65deg) scale(0.75);
+  -o-transform: translateX(-65%) rotateY(65deg) scale(0.75);
+  -webkit-transform: translateX(-65%) rotateY(65deg) scale(0.75);
+  transform: translateX(-65%) rotateY(65deg) scale(0.75);
+}
+.flipster--infinite-carousel .flipster__item--future-2 .flipster__item__content {
+  -moz-transform: translateX(65%) rotateY(-65deg) scale(0.75);
+  -ms-transform: translateX(65%) rotateY(-65deg) scale(0.75);
+  -o-transform: translateX(65%) rotateY(-65deg) scale(0.75);
+  -webkit-transform: translateX(65%) rotateY(-65deg) scale(0.75);
+  transform: translateX(65%) rotateY(-65deg) scale(0.75);
+}
+.flipster--infinite-carousel .flipster__item--past-1 .flipster__item__content {
+  -moz-transform: translateX(-50%) rotateY(65deg) scale(0.75);
+  -ms-transform: translateX(-50%) rotateY(65deg) scale(0.75);
+  -o-transform: translateX(-50%) rotateY(65deg) scale(0.75);
+  -webkit-transform: translateX(-50%) rotateY(65deg) scale(0.75);
+  transform: translateX(-50%) rotateY(65deg) scale(0.75);
+}
+.flipster--infinite-carousel .flipster__item--future-1 .flipster__item__content {
+  -moz-transform: translateX(50%) rotateY(-65deg) scale(0.75);
+  -ms-transform: translateX(50%) rotateY(-65deg) scale(0.75);
+  -o-transform: translateX(50%) rotateY(-65deg) scale(0.75);
+  -webkit-transform: translateX(50%) rotateY(-65deg) scale(0.75);
+  transform: translateX(50%) rotateY(-65deg) scale(0.75);
+}
 
     
 
 </style>
 
-<div class="" id="frames">
+<div class=".flipster--infinite-carousel" id="frames">
 
   <div class="flipster">
     <ul class="flip-items">

@@ -306,37 +306,36 @@ body{
 	list-style: none;
 }
 footer {
-	margin-top: -20px;
+	margin-top: -30px;
 }
 #footer{
 	background-color: rgb(4, 20 ,36);
 	color: white;
-	padding: 10px;
-	position: relative;  
+	padding: 5px;
 	
 } 
 #footer h4{
 	font-weight: 600;
+    padding-top: 10px;
 }
 #footer ul{
 	list-style: none;
 }
 #footer li{
-	font-size: 13px;
-	padding: 5px;
+font-size: 13px;
+	padding: 2px;
 }
 #footer #bro{
 	text-align: left;
-
-	border-radius: 10px;
-	padding: 10px;
+    width:50px;border-radius: 10px;
+	padding: 5px;
 }
 #footer #bro {
 	 background: rgb(61, 82 ,102);
 	border-radius: 0px;
 }
 #footer #bro img{
-	width: 100px;
+	width: 80px;
 }
  .cp{
 	font-size: 12px;
@@ -518,7 +517,7 @@ footer {
     margin: 20px;
     padding: 20px;
 } 
-#big-data-partner .card{
+#big-data-partner .card{ 
     padding: 10px;
     border: 0px solid;
     margin: 10px;
@@ -619,6 +618,8 @@ footer {
     background-size: cover;
     background-attachment: ;
     background-repeat: no-repeat;
+      overflow: hidden;
+        width: 100%;
   }
 
   #frames .frame-card {
