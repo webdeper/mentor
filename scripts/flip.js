@@ -683,7 +683,7 @@ flipContainer.flipster({
     itemContainer: flipItemContainer,
     itemSelector: flipItem,
     loop: true,
-    autoplay: 3000,
+    //autoplay: 3000,
     start: 0,
     style: 'carousel',
     spacing: -20,
