@@ -375,7 +375,7 @@ font-size: 13px;
 	color:  rgb(4, 20 ,36);
 }
  .form input{
-	padding: 25px;
+	padding: px;
 	 border-bottom: 2px solid  rgb(4, 20 ,36);
 }
 .form .custom-select{
@@ -384,7 +384,7 @@ font-size: 13px;
 	 border-bottom: 2px solid  rgb(4, 20 ,36);;
 }
 .form textarea{
-		padding: 25px;
+		padding: px;
 	 border-bottom: 2px solid  rgb(4, 20 ,36);;
 		font-family: 'Nanum Gothic', sans-serif;
 }
@@ -405,6 +405,15 @@ font-size: 13px;
 	font-weight: ;  
 	
 } 
+.card-deck{
+    width: 100%;
+}
+.card-group{
+    width: 100%;
+}
+#location .card-group img{
+  height: 300px
+}
 #bridge{ 
 	background: linear-gradient(70deg, rgba(4, 20, 36, 0.75) 50%,rgba(4, 20, 36, 0.75) 50%) ,url('../images/br.png');
 	background-size: cover;
@@ -445,7 +454,7 @@ font-size: 13px;
 } 
  #tabs  .nav-tabs{
 	background: white;
-	 color: #232323; 
+	 color: rgb(35, 35, 35); 
 	 padding:10px;
 	margin-top: -40px;
 	 box-shadow: 0px 3px 5px 3px rgba(128, 128, 128, 0.12);
@@ -460,7 +469,7 @@ font-size: 13px;
 	padding: 20px; 
 		border-radius: 0px; 
 	border: 0px solid;  
-	color: rgba(4, 20, 36);
+	color: rgba(4, 20, 36,1);
 	background: transparent;
 		font-family: 'Nanum Gothic', s ans-serif;
 	transition: all 0.3s;
@@ -558,7 +567,7 @@ font-size: 13px;
 	}
 	#main p{
 		font-size: 10px;
-			font-family: 'Nanum Gothic', sans-serif;
+			font-family: 'Nanum Gothic', sans-serif; 
 	}
 	#main h5{
 		font-size: 12px;
