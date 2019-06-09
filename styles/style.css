@@ -166,6 +166,11 @@ body{
 	color: white;
 	font-weight: 900;
 }
+#frame5 h1 a{
+	text-decoration: none;
+	color: white;
+	font-weight: 900;
+}
 #frame2{ 
 	padding: 1px;
 			background:  linear-gradient(70deg, rgba(4, 20, 36, 0.75) 50%,rgba(4, 20, 36, 0.75) 50%) ,url('../images/image41.jpeg');
@@ -185,7 +190,7 @@ body{
 }
 #frame2 .content-2 p{
 	font-size: 18px;
-}
+} 
 #frame2 .content-2 .light{
 	border-left: 7px solid;
 	
@@ -219,7 +224,12 @@ body{
 }
 #frame3 .content-2  .row p{
 	font-size: 17px;
-	margin-top: -10px;
+	margin-top: -10px; 
+	
+}
+#frame5 .content-2   p{
+	font-size: 18px;
+	
 	
 }
 #frame3 table td{
@@ -262,7 +272,7 @@ body{
 	bottom: -16;
 	cursor: pointer;
 }
-.overlay{
+.overlay{ 
 			overflow:;  
 	position: fixed;
 	height: 100%;
@@ -306,12 +316,12 @@ body{
 	list-style: none;
 }
 footer {
-	margin-top: -30px;
+	
 }
 #footer{
 	background-color: rgb(4, 20 ,36);
 	color: white;
-	padding: 5px;
+	padding: 30px;
 	
 } 
 #footer h4{
@@ -668,6 +678,9 @@ font-size: 13px;
         padding:  15px;
     }
     #frame3  .content-2 p{
+        font-size: 20px;
+    }
+    #frame4 .content-2 p{
         font-size: 20px;
     }
 }
