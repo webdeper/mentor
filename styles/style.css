@@ -282,7 +282,7 @@ body{
 	top: 0;  
 	bottom: 0; 
 	left: 0; 
-	display: ;
+	display: none;
 	z-index: 9;
 } 
 .overlay .content{ 
@@ -421,6 +421,9 @@ font-size: 13px;
 .card-group{
     width: 100%;
 }
+.card-cplumns{
+    width: 100%;
+}
 #location .card-group img{
   height: 300px
 }
@@ -538,14 +541,14 @@ font-size: 13px;
 } 
 #big-data-partner .card{ 
     padding: 10px;
-    border: 0px solid;
+    border: 0px solid #d6d6d6;
     margin: 10px;
     border-radius: 10px;
-    box-shadow: 0px 5px 10px 5px rgba( 159, 159, 159, 0.1 );
+    
     text-align: center;
 }
 #big-data-partner .card img{
-    width: 200px;
+     width: 220px;
     height: 60px;
     text-align: center;
 }
